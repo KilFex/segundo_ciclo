@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    margin: 0;
+}
+#clock{
+    font-size: 18px;
+    margin-right: 50px;
+}
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.red-border{
+    border: 1px solid red;
+}
+.message-container{
+    margin-top: 20px;
+    text-align: center;
+}
+#message{
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+}
